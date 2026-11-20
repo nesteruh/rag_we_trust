@@ -1,0 +1,8 @@
+{
+  "model": "gemma4:12b",
+  "temperature": 0.7,
+  "seed": 0,
+  "num_ctx": 4096,
+  "num_predict": 1500,
+  "think": false
+}

@@ -1,0 +1,13 @@
+{
+  "recorded": "2026-11-17",
+  "python": "3.11.7",
+  "ollama": "0.40.16",
+  "models": {
+    "llama3.1:8b": "46e0c10c039e",
+    "qwen2.5:7b": "845dbda0ea48",
+    "gemma4:12b": "6114515d63c1",
+    "nomic-embed-text:latest": "0a109f422b47"
+  },
+  "note": "Model ids as printed by `ollama list` on the machine that produced results/*_final*.csv. The final run was made on 16-17 Nov 2026; the tags were not updated in between (llama, qwen, nomic: 6 months old).",
+  "packages": "requirements.lock.txt (pip freeze of .venv)"
+}

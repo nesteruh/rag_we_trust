@@ -1,0 +1,5 @@
+,llama3.1:8b,qwen2.5:7b
+both,114,114
+neither,337,337
+other_only,70,149
+this_only,149,70

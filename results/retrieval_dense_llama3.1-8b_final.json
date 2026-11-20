@@ -1,0 +1,8 @@
+{
+  "model": "llama3.1:8b",
+  "temperature": 0.0,
+  "seed": 0,
+  "num_ctx": 4096,
+  "num_predict": 32,
+  "think": null
+}

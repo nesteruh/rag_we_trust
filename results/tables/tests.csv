@@ -1,0 +1,10 @@
+comparison,n,share_1,share_2,diff_2_minus_1,ci_lo,ci_hi,only_1,only_2,p,p_holm
+H1 dose: m=1 vs m=3 | llama3.1:8b,599,0.0735,0.5042,0.4307,0.394,0.4708,4,262,0.0,0.0
+"H2 baseline vs consistency prompt, m=2 | llama3.1:8b",599,0.2187,0.2154,-0.0033,-0.0217,0.015,17,15,0.8601,1.0
+"H3 poison labelled untrusted vs trusted, m=2 | llama3.1:8b",599,0.1452,0.3055,0.1603,0.1319,0.1903,2,98,0.0,0.0
+"H4 known vs unknown-by-neither, m=2 | llama3.1:8b",536,0.14,0.2902,0.1502,,,250,286,0.0,0.0001
+H1 dose: m=1 vs m=3 | qwen2.5:7b,601,0.0433,0.6223,0.579,0.5391,0.6173,2,350,0.0,0.0
+"H2 baseline vs consistency prompt, m=2 | qwen2.5:7b",601,0.2895,0.2829,-0.0067,-0.025,0.0116,19,15,0.6076,1.0
+"H3 poison labelled untrusted vs trusted, m=2 | qwen2.5:7b",601,0.2196,0.4027,0.183,0.1531,0.218,5,115,0.0,0.0
+"H4 known vs unknown-by-neither, m=2 | qwen2.5:7b",465,0.2558,0.3276,0.0718,,,172,293,0.1165,0.3495
+"H5 llama3.1:8b vs qwen2.5:7b, m=2 | common questions",574,0.2178,0.2909,0.0732,0.0314,0.115,57,99,0.001,0.0039

@@ -1,0 +1,5 @@
+category_strict,correct,hedged,other,poisoned
+correct,13592,0,0,0
+hedged,0,144,0,0
+other,1977,0,2567,600
+poisoned,0,0,0,7920
