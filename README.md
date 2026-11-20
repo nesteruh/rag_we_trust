@@ -8,6 +8,7 @@ Measures how retrieval-augmented generation (RAG) systems handle poisoned or con
 
 | Path | Contents |
 |---|---|
+| `report.pdf` | The report (8 pages, Springer template) |
 | `src/ragtrust/` | The code, one module per layer: `data`, `prompts`, `llm`, `metrics`, `poison`, `retrieval`, `experiment`, `runs`, `analysis`, `stats` |
 | `notebooks/` | Numbered notebooks that import from `ragtrust` and tell the story of the project |
 | `data/poison/` | The question selection, the generated poison set (published: LLM generation cannot be reproduced exactly) and the excluded items |

@@ -12,6 +12,7 @@ venv/
 data/*
 !data/.gitkeep
 !data/poison/
+!data/handcheck/
 results/*
 !results/.gitkeep
 !results/*_final.csv
@@ -21,7 +22,6 @@ results/*
 !results/selection_closed_book_*_all.csv
 !results/selection_closed_book_*_all.json
 !results/environment.json
-!results/baselines_llama3.1-8b_n200.csv
 !results/tables/
 !results/figures/
 data/cache/
